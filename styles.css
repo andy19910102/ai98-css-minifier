@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/* Layout */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.container:last-child {
+    border-bottom: none;
+}
+
+textarea {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    resize: none;
+}
+
+/* Buttons */
+button {
+    display: block;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
