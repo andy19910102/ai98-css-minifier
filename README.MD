@@ -1,5 +1,9 @@
 # AI98-css-minifier
 
+### Live Demo: [https://andy19910102.github.io/ai98-css-minifier](https://andy19910102.github.io/ai98-css-minifier/)
+
+### 開發過程影片： [https://youtu.be/bVbMXnJxlSY](https://youtu.be/bVbMXnJxlSY)
+
 AI98-css-minifier 是一個簡單易用的線上CSS壓縮工具，用於移除CSS代碼中的註釋、空格和縮排，以縮小文件大小並加速網頁加載。
 
 ## 功能
